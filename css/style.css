@@ -1,0 +1,22 @@
+body {
+  background-image: url(../imagenes/fondo.png);
+  background-color: #2d2e30;
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+main h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 200px;
+  font-weight: bold;
+}
+main p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
