@@ -1,0 +1,10 @@
+p, h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 200px;
+    font-weight: bold;
+}
+footer p{
+    font-size: 15px;
+}
