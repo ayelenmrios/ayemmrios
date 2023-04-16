@@ -1,24 +1,70 @@
 body{
     //Fondo efecto graneado
     background-image: url(../imagenes/fondo.png);
-    background-color: #2d2e30;
+    //background-color: #2d2e30;
     background-position: 0px 0px;
     background-size: 200px 200px;
     //
 }
 main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    //Titulo principal
     h1{
         font-family: 'Open Sans', sans-serif;
-        font-size: 200px;
+        //font-size: 100px;
         font-weight: bold;
+        text-align: center;
+    }
+    //Menu
+    nav{
+        margin-top: 10rem !important;
+        margin-bottom: 9rem !important;
+        h3{
+            text-align: center;
+            margin: 1em 0em 1em 0em !important;
+            //background-color: purple;
+            a{
+                color: rgb(34, 33, 33);
+                text-decoration: none;
+            }
+            &:hover{
+                background-color: rgba(196, 195, 195, 0.342);
+                transition: all 0.4s;
+            }
+            
+        }
+
     }
     p{
         font-family: 'Open Sans', sans-serif;
         font-weight: light;
     }
-}
-footer{
-    p{
-        font-size: 15px;
+    //Imagenes
+    section{
+        padding: 10px;
+        margin: 0 !important;
+
+        img{
+            padding: 0 !important;
+            margin: 0px 0px 20px 0px !important;
+            
+        }
+    }
+    //Pie de página
+    footer{
+        //background-color: green;
+        margin: 2rem 2rem 0rem 2rem;
+        padding: 1rem;
+        text-align: center;
+
+        p{
+            font-size: 15px;
+            a{
+                color: grey;
+            }
+        }
     }
 }
+
